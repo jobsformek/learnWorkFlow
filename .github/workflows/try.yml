@@ -1,1 +1,8 @@
+name: 1st try
+on: 
+  push :
+    branches: [main]
+  pull:
+    branches: [main]
 
+workflow_dispatch:
